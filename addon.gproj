@@ -1,0 +1,20 @@
+GameProject {
+ ID "StanceAndVelocityIndicator"
+ GUID "59635DAEF35C2641"
+ TITLE "More Indicators"
+ Dependencies {
+  "5614BBCCBB55ED1C" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

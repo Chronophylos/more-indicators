@@ -1,0 +1,168 @@
+OverlayWidgetClass {
+ Name "root"
+ Clipping False
+ components {
+  SCR_WidgetExportRuleRoot "{56E0F18796B0C334}" {
+   DestinationPath "{B93AFC9CAE2338FD}Scripts/Game/UI/StanceVelocityInfo"
+   ScriptAddon "$StanceAndVelocityIndicator:"
+   GenerateFullWidgetPath 0
+   ScriptClassNamePrefix "PAG_"
+  }
+ }
+ {
+  FrameWidgetClass "{59636492940B37ED}" {
+   Name "Frame0"
+   Slot OverlayWidgetSlot "{59636492940B37A2}" {
+    HorizontalAlign 3
+    VerticalAlign 3
+   }
+   {
+    GridLayoutWidgetClass "{59636491E2E7AEE7}" {
+     Name "GridLayout0"
+     Slot FrameWidgetSlot "{59636491E2E7AE89}" {
+      Anchor 0 1 0 1
+      PositionX 16
+      OffsetLeft 16
+      PositionY -116
+      OffsetTop -116
+      SizeX 100
+      OffsetRight -116
+      SizeY 100
+      OffsetBottom 16
+     }
+     {
+      SizeLayoutWidgetClass "{5963649120E44A24}" {
+       Name "SizeLayout0"
+       Slot GridWidgetSlot "{596AC599FDEB48A9}" {
+        HorizontalAlign 1
+        VerticalAlign 1
+        Row 0
+        Column -1
+       }
+       AllowWidthOverride 1
+       WidthOverride 5
+       AllowHeightOverride 1
+       HeightOverride 95
+       {
+        ProgressBarWidgetClass "{596364919BEC1DE9}" {
+         Name "m_Stance"
+         Slot AlignableSlot "{59636D25CCAAC2A7}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+          Padding 1 1 1 1
+         }
+         style Simple
+         Vertical 1
+         Flipped 1
+        }
+       }
+      }
+      SizeLayoutWidgetClass "{5963649042FC18FF}" {
+       Name "SizeLayout1"
+       Slot GridWidgetSlot "{596AC599FDEB4718}" {
+        HorizontalAlign 1
+        VerticalAlign 1
+        Row 1
+        Column 0
+       }
+       AllowWidthOverride 1
+       WidthOverride 95
+       AllowHeightOverride 1
+       HeightOverride 5
+       {
+        ProgressBarWidgetClass "{59636D25518B3DE3}" {
+         Name "m_Speed"
+         Slot AlignableSlot "{59636D25518B3D82}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+          Padding 1 1 1 1
+         }
+         style Simple
+        }
+       }
+      }
+      SizeLayoutWidgetClass "{596AC59DA923CDEB}" {
+       Name "SizeLayout2"
+       Slot GridWidgetSlot "{596AC599FDEB4718}" {
+        HorizontalAlign 1
+        VerticalAlign 1
+        Row 2
+        Column 0
+       }
+       AllowWidthOverride 1
+       WidthOverride 95
+       AllowHeightOverride 1
+       HeightOverride 5
+       {
+        ProgressBarWidgetClass "{596AC59DA923CDED}" {
+         Name "m_Stamina"
+         Slot AlignableSlot "{59636D25518B3D82}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+          Padding 1 1 1 1
+         }
+         Color 0.071 0.192 0.561 1
+         style Simple
+        }
+       }
+      }
+      SizeLayoutWidgetClass "{596AC59D56E2FE4A}" {
+       Name "SizeLayout3"
+       Slot GridWidgetSlot "{596AC599FDEB48A9}" {
+        HorizontalAlign 1
+        VerticalAlign 1
+        Row 0
+        Column 1
+       }
+       AllowWidthOverride 1
+       WidthOverride 5
+       AllowHeightOverride 1
+       HeightOverride 95
+       {
+        ProgressBarWidgetClass "{596AC59D56E2FE4B}" {
+         Name "m_Health"
+         Slot AlignableSlot "{59636D25CCAAC2A7}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+          Padding 1 1 1 1
+         }
+         Color 0.561 0.439 0.071 1
+         style Simple
+         Vertical 1
+         Flipped 1
+        }
+       }
+      }
+      SizeLayoutWidgetClass "{596AC59D0CC06B71}" {
+       Name "SizeLayout4"
+       Slot GridWidgetSlot "{596AC599FDEB48A9}" {
+        HorizontalAlign 1
+        VerticalAlign 1
+        Row 0
+        Column 2
+       }
+       AllowWidthOverride 1
+       WidthOverride 5
+       AllowHeightOverride 1
+       HeightOverride 95
+       {
+        ProgressBarWidgetClass "{596AC59D0CC06B72}" {
+         Name "m_Blood"
+         Slot AlignableSlot "{59636D25CCAAC2A7}" {
+          HorizontalAlign 3
+          VerticalAlign 3
+          Padding 1 1 1 1
+         }
+         Color 0.502 0 0 1
+         style Simple
+         Vertical 1
+         Flipped 1
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

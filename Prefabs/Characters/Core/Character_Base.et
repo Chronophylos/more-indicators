@@ -1,0 +1,11 @@
+SCR_ChimeraCharacter {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_BaseHUDComponent "{520EA1D2DB118134}" {
+   InfoDisplays {
+    PAG_StanceVelocityInfo "{5969495CD531900C}" {
+    }
+   }
+  }
+ }
+}
